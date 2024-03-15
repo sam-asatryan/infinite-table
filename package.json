@@ -1,12 +1,14 @@
 {
   "name": "infinite-table",
   "version": "1.0.0",
+  "homepage": "https://sam-asatryan.github.io/infinite-table",
   "private": true,
   "dependencies": {
     "@types/node": "^16.18.89",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@types/react-window": "^1.8.8",
+    "gh-pages": "^6.1.1",
     "immer": "^10.0.4",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
@@ -21,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

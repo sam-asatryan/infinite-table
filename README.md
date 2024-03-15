@@ -20,6 +20,7 @@ In the project directory, you can run:
 - Ability to add more lines
 - Optimized state updates to not block rendering and/or user actions (update with batches)
 - Ability to select a value for each line (the cells on the right are resetting)
+- Rendering only the visible part of table using react-window
 
 ## What is not implemented
 - Options child/parent connection for each row (I'm not sure if I got how it should work)
