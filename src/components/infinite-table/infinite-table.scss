@@ -1,0 +1,42 @@
+.infinite-table {
+  width: 1000px;
+  margin: 0 auto;
+
+  table {
+    tr {
+      th, td {
+        background: white;
+        border: 1px solid gray;
+        padding: 4px;
+        min-width: 200px;
+        width: auto;
+        text-align: center;
+
+        &:nth-child(1) {
+          min-width: unset;
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  .infinite-table-virtuoso {
+    table {
+      margin: 0 auto;
+    }
+  }
+
+  .extra-actions {
+    margin-top: 16px;
+
+    input, button {
+      padding: 4px;
+    }
+
+    button {
+      margin-left: 8px;
+      cursor: pointer;
+
+    }
+  }
+}

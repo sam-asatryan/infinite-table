@@ -1,11 +1,15 @@
 import React from 'react';
-import Select from "./components/select";
+import InfiniteTable from './components/infinite-table';
+
 import './app.scss';
 
 function App() {
   return (
-    <div className="App">
-      <Select/>
+    <div className='app'>
+      <h1>Infinite Table</h1>
+      <div className='table-container'>
+        <InfiniteTable/>
+      </div>
     </div>
   );
 }
